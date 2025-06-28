@@ -1,0 +1,2 @@
+a="hhhhh"
+print(a)
