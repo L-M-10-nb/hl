@@ -34,6 +34,7 @@ plt.grid(axis='y', linestyle='--', alpha=0.7)
 formatter = FuncFormatter(lambda x, p: format(int(x), ','))
 ax.yaxis.set_major_formatter(formatter)
 
+
 # 添加图例
 plt.legend(title='年份', bbox_to_anchor=(1.02, 1), loc='upper left')
 
